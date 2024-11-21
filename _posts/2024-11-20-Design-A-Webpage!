@@ -1,0 +1,38 @@
+---
+title: "Design-A-Webpage!"
+date: 2024-11-20
+---
+Learn Hypertext Markup Language (HTML) By Building a Cat Photo App
+
+Sept. 23, 2024:
+
+ HTML elements have an opening and closing tag with content in between.
+ <openingtag>content </closingtag>
+The h1 element is used for the main heading of a page
+Only use one h1 element per page
+h1-h6 signify the importance of the content within them. h1 is the most important and h6 is the least important
+The p element creates a paragraph of text on the website
+Commenting leaves messages that don't show up on the webpage.
+It can also be used to make code inactive
+<!-- I'm excited about this project! -->
+NOTES: Day 1 went smoothly! I've done this section before but decided to start over and take notes to have a personal reference guide for my projects.
+
+Sept. 24, 2024:
+main element represents main content of an HTML document
+Should be unique to the document and not repeated in other parts of the document
+Oct. 7, 2024:
+
+Nesting is putting one element inside another.
+  Nested elements should be placed 2 spaces to the right of the element they're contained in.
+<main>
+  <h1>Most important content of the document</h1>
+  <p>Some more important content...</p>
+</main>
+The img element adds images to a website. 
+Img is a void element, meaning it has no closing tag
+Attributes are words added to opening tags of an element to control the element's behavior.
+Ex: Adding scr to an img element specifies an image's URL
+<img src="www.URL" alt="image description">
+Adding alt to an img element improves accessibility by providing a description if an image can't load
+The anchor element (a) links to another page.
+<a href="URL">link text to be displayed</a>
